@@ -12,7 +12,7 @@ export const handler = async (event, context) => {
 
         let responseData = {
             message: "Successfully",
-            data: result
+            data: result.Items
         }
         return {
             statusCode: 200,
